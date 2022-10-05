@@ -1,0 +1,5 @@
+/* MAIN */
+main{
+    width: calc(100% - 18.75rem);
+    overflow-y: auto;
+}

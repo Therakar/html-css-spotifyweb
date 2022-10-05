@@ -1,0 +1,22 @@
+/* COMMON */
+body{
+    height: 100vh;
+}
+
+.page-container{
+    height: calc(100% - 80px);
+    background-color: var(--primary-color);
+}
+
+.upgrade-bar{
+    position: fixed;
+    right: 0;
+    left: 300px;
+    background-color: var(--secondary-color);
+}
+
+/* UTILITY */
+
+.flex{
+    display: flex;
+}
