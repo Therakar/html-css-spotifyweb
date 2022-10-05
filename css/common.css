@@ -4,15 +4,16 @@ body{
 }
 
 .page-container{
-    height: calc(100% - 80px);
+    height: calc(100% - 5rem);
     background-color: var(--primary-color);
 }
 
 .upgrade-bar{
     position: fixed;
     right: 0;
-    left: 300px;
+    left: 14.375rem;
     background-color: var(--secondary-color);
+    height: 5rem;
 }
 
 /* UTILITY */
@@ -20,3 +21,21 @@ body{
 .flex{
     display: flex;
 }
+
+.align-start{
+    align-items: flex-start;
+}
+
+.direction-column{
+    flex-direction: column;
+}
+
+.padding-standard{
+    padding: 1.25rem;
+}
+
+.list-inline{
+    list-style: none;
+    padding-top: .3125rem;
+}
+

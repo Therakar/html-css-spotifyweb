@@ -1,5 +1,6 @@
 /* MAIN */
 main{
-    width: calc(100% - 18.75rem);
+    width: calc(100% - 14.375rem);
     overflow-y: auto;
+    margin-top: 80px;
 }

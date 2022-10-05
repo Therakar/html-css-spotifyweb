@@ -1,5 +1,51 @@
 /* ASIDE */
 aside{
-    width: 18.75rem;
+    width: 14.375rem;
     background-color: var(--third-color);
+    color: var(--secondary-text-color);
+    position: relative;
+}
+
+aside img{
+    width: 80%;
+}
+
+li{
+    padding: .3125rem 0;
+     
+}
+
+.main-nav, .playlist-nav{
+    padding-top: 0;
+}
+
+.main-nav img{
+    width: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: .3125rem;
+}
+
+
+span i{
+    padding-right: .9375rem;
+    font-size: 2.5rem;
+    vertical-align: middle;
+    color: var(--secondary-text-color);
+}
+
+.bottom-nav{
+    align-items: flex-end;
+    width: 100%;
+    background-color: var(--third-color);
+    position: absolute;
+    bottom: 0;
+}
+
+.profile-icon{
+    width: 1.5625rem;
+    height: 1.5625rem;
+    background-color: var(--secondary-text-color);
+    border-radius: 50%;
+    vertical-align: middle;
 }

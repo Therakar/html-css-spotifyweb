@@ -1,0 +1,32 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ASIDE */
+.playlist-nav ul li{
+    padding-bottom: .625rem;
+}
+
+h3{
+    color: white;
+    font-size: .9375rem;
+   
+}
+
+.bottom-nav h3{
+    padding-left: .9375rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h4{
+    color: var(--secondary-text-color);
+    display: inline-block;
+    vertical-align: middle;
+    font-size: .8125rem;
+}
+
+hr{
+    border: .0625rem solid var(--secondary-text-color);
+    margin: 1.25rem 0;
+}

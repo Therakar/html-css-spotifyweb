@@ -1,0 +1,13 @@
+
+a:hover{
+    cursor: pointer;
+}
+
+nav h4:hover{
+    color: white;
+}
+
+nav i:hover{
+    color: white;
+}
+
