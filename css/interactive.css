@@ -11,3 +11,17 @@ nav i:hover{
     color: white;
 }
 
+/* BUTTONS */
+.btn{
+    padding: .625rem 1.875rem;
+    border: 1px solid white;
+    border-radius: 1.25rem;
+    font-size: 12PX;
+    color: white;
+    background-color: transparent;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
