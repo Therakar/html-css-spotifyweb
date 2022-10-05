@@ -1,0 +1,52 @@
+/* 0 < vw <= 1100px */
+
+
+/* 0 < vw <= 700px */
+
+
+/* 0 < vw <= 600px */
+@media screen and (max-width: 37.5rem){
+
+    .off-under-600px{
+        display: none;
+    }
+
+    .on-under-600px{
+        display: block;
+        width: 70px;
+        vertical-align: middle;
+
+    }
+    
+    .padding-standard{
+        padding: .9375rem;
+    }
+
+    .bottom-nav h3{
+        display: none;
+    }
+
+    .bottom-nav h4{
+        padding-bottom: 1.25rem;
+    }
+
+    .main-nav{
+        display: flex;
+        justify-content: center;
+        padding-left: 20px;
+    }
+
+    .bottom-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    aside{
+        width: auto;
+    }
+
+    .upgrade-bar{
+        left: 70px;
+    }
+}

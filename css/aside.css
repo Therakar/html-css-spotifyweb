@@ -26,6 +26,9 @@ li{
     padding-right: .3125rem;
 }
 
+.playlist-nav{
+    overflow-y: auto;
+}
 
 span i{
     padding-right: .9375rem;
@@ -48,4 +51,8 @@ span i{
     background-color: var(--secondary-text-color);
     border-radius: 50%;
     vertical-align: middle;
+}
+
+.on-under-600px{
+    display: none;
 }
