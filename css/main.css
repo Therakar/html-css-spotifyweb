@@ -2,5 +2,25 @@
 main{
     width: calc(100% - 14.375rem);
     overflow-y: auto;
-    margin-top: 80px;
+    margin-top: 5rem;
+}
+
+/* category */
+.category {
+    margin: auto;
+    justify-content: space-between;
+    padding-top: .625rem;
+    flex-wrap: wrap;
+    max-width: 40.625rem;
+}
+
+.category li:not(:last-child){
+    padding-right: 1.875rem;
+}
+
+/* recently played */
+.recently-played{
+    margin-top: 30px;
+    padding: 0 20px;
+    color: white;
 }

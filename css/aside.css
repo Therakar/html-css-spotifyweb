@@ -4,6 +4,7 @@ aside{
     background-color: var(--third-color);
     color: var(--secondary-text-color);
     position: relative;
+    overflow-y: hidden;
 }
 
 aside img{
@@ -28,6 +29,7 @@ li{
 
 .playlist-nav{
     overflow-y: auto;
+    
 }
 
 span i{

@@ -3,11 +3,19 @@ a:hover{
     cursor: pointer;
 }
 
+
+
+/* ASIDE NAV */
 nav h4:hover{
     color: white;
 }
 
 nav i:hover{
+    color: white;
+}
+
+/* MAIN */
+.category h4:hover{
     color: white;
 }
 
