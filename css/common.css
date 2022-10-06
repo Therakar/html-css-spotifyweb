@@ -15,11 +15,9 @@ body{
     background-color: var(--secondary-color);
     height: 5rem;
     text-align: right;
-    
 }
 
 /* UTILITY */
-
 .flex{
     display: flex;
 }
@@ -39,5 +37,33 @@ body{
 .list-inline{
     list-style: none;
     padding-top: .3125rem;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+/* main - base card structure */
+
+.row{
+    flex-wrap: wrap;
+    margin-top: 1.25rem;
+}
+
+.row img{
+    width: 100%;
+}
+
+.card{
+    width: calc(100% / 6);
+    flex-direction: column;
+    text-align: center;
+    padding-right: 1.25rem ;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.card h3{
+    padding: .625rem 0;
 }
 

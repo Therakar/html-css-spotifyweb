@@ -1,11 +1,23 @@
 /* 0 < vw <= 1100px */
-
+@media screen and (max-width: 68.75rem){
+    .card{
+        width: calc(100% / 4);
+    }
+}
 
 /* 0 < vw <= 700px */
-
+@media screen and (max-width: 43.75rem){
+    .card{
+        width: calc(100% / 2);
+    }
+}
 
 /* 0 < vw <= 600px */
 @media screen and (max-width: 37.5rem){
+    
+    main{
+        width: calc(100% - 70px);
+    }
 
     .off-under-600px{
         display: none;
@@ -43,7 +55,7 @@
     }
 
     aside{
-        width: auto;
+        width:70px;
     }
 
     .upgrade-bar{

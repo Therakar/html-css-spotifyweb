@@ -55,7 +55,6 @@ span i{
     width: 1.5625rem;
     height: 1.5625rem;
     background-color: var(--secondary-text-color);
-    border-radius: 50%;
     vertical-align: middle;
 }
 

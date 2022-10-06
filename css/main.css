@@ -3,13 +3,14 @@ main{
     width: calc(100% - 14.375rem);
     overflow-y: auto;
     margin-top: 5rem;
+    color: white;
 }
 
 /* category */
 .category-list {
     margin: auto;
     justify-content: space-between;
-    padding-top: .625rem;
+    padding-top: 1.25rem;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
@@ -17,36 +18,22 @@ main{
 
 .category-list ul{
     flex-wrap: wrap;
+    text-align: center;
+    padding: 0 1.25rem;
 }
 
 .category-list li:not(:last-child){
     padding-right: 1.875rem;
+    text-align: center;
 }
 
 /* recently played */
 .recently-played{
     margin-top: 3.125rem;
-    padding: 0 1.25rem;
-    color: white;
 }
 
-.row{
-    flex-wrap: wrap;
-    margin-top: 1.25rem;
+/* created for you | popular artists */
+.created-for-you > h4, .popular-artists > h4{
+    padding: 10px 0;
 }
 
-.row img{
-    width: 100%;
-}
-
-.card{
-    width: calc(100% / 6);
-    flex-direction: column;
-    text-align: center;
-    padding-right: 1.25rem ;
-    align-items: center;
-}
-
-.card h3{
-    padding: .625rem 0;
-}
