@@ -6,21 +6,47 @@ main{
 }
 
 /* category */
-.category {
+.category-list {
     margin: auto;
     justify-content: space-between;
     padding-top: .625rem;
     flex-wrap: wrap;
-    max-width: 40.625rem;
+    justify-content: center;
+    margin: auto;
 }
 
-.category li:not(:last-child){
+.category-list ul{
+    flex-wrap: wrap;
+}
+
+.category-list li:not(:last-child){
     padding-right: 1.875rem;
 }
 
 /* recently played */
 .recently-played{
-    margin-top: 30px;
-    padding: 0 20px;
+    margin-top: 3.125rem;
+    padding: 0 1.25rem;
     color: white;
+}
+
+.row{
+    flex-wrap: wrap;
+    margin-top: 1.25rem;
+}
+
+.row img{
+    width: 100%;
+}
+
+.card{
+    width: calc(100% / 6);
+    flex-direction: column;
+    text-align: center;
+    padding-right: 1.25rem ;
+    align-items: center;
+}
+
+.card h3{
+    padding: .625rem 0;
 }

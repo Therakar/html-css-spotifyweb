@@ -16,6 +16,10 @@ li{
      
 }
 
+.logo-container{
+    height: 5rem;
+}
+
 .main-nav, .playlist-nav{
     padding-top: 0;
 }
@@ -57,4 +61,8 @@ span i{
 
 .on-under-600px{
     display: none;
+}
+
+.recently-played a:hover{
+    opacity: 0.5;
 }
