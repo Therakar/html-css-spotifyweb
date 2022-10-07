@@ -2,5 +2,77 @@
 footer{
     height: 5rem;
     background-color: var(--primary-color-light);
-    z-index: 10;
+    position: sticky;
+    padding: .625rem;
+    
+}
+
+.left-nav, .right-nav{
+    width: 25%;
+ 
+}
+
+.center-nav{
+    width: 50%;
+}
+
+
+/* left-nav */
+footer img{
+    width: 3.75rem;
+}
+
+.text-box{
+    padding: 0 .625rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icons-footer-left{
+    align-items: center;
+    padding-left: 1.25rem;
+}
+
+.icons-footer-left i{
+    padding-right: 15px;
+}
+
+/* center-nav */
+
+.center-nav{
+   flex-direction: column;
+}
+
+.center-nav-top{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: .625rem;
+}
+
+.center-nav-top a:not(:last-of-type){
+    margin-right: 5%;
+}
+
+.center-nav-bottom{
+    
+    
+    width: 100%;
+}
+
+.song-slider{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* right-nav */
+.right-nav{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-nav i{
+    padding-right: 15px;
 }

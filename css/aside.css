@@ -38,6 +38,10 @@ li{
     flex-direction: column;
 }
 
+.playlist-nav h3{
+    padding-bottom: .625rem;
+}
+
 .playlists{
     overflow-y: auto;
     flex-grow: 1;

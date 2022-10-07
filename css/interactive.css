@@ -45,6 +45,7 @@ main h3:hover{
     cursor: pointer;
 }
 
+
 /* BUTTONS */
 .btn{
     padding: .625rem 1.875rem;
@@ -60,5 +61,29 @@ main h3:hover{
     transform: scale(1.1);
 }
 
+/* FOOTER */
 
+.slider, .slider-volume{
+    width: 80%;
+    -webkit-appearance: none;
+    height: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--secondary-text-color);
+    cursor: pointer;
+}
 
+.slider-volume{
+    width: 30%;
+}
+
+.slider::-webkit-slider-thumb, .slider-volume::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    box-shadow: -400px 0 0 400px lightgrey;
+}
+
+.center-nav-top :nth-of-type(3):hover{
+    transform: scale(1.1);
+}

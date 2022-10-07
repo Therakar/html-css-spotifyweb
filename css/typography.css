@@ -30,3 +30,28 @@ hr{
     border: .0625rem solid var(--secondary-text-color);
     margin: 1.25rem 0;
 }
+
+
+/* FOOTER */
+
+footer{
+    color: white;
+}
+
+.left-nav{
+    color: var(--secondary-text-color);
+}
+
+h5, .right-nav a{
+    color: white;
+}
+
+.center-nav-top a{
+    font-size: 1.25rem;
+    color: white;
+    
+}
+
+.center-nav-top :nth-of-type(3){
+    font-size: 25px;
+}
