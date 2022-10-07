@@ -7,8 +7,35 @@
 
 /* 0 < vw <= 700px */
 @media screen and (max-width: 43.75rem){
+    /* main */
     .card{
         width: calc(100% / 2);
+    }
+
+    /* footer */
+
+    .left-nav, .right-nav{
+        width: 30%;
+     
+    }
+    
+    .center-nav{
+        width: 40%;
+    }
+
+    .right-nav i{
+        padding-right: 5px;
+    }
+
+    .slider-volume{
+        width: 60%;
+    }
+
+    .icons-footer-left{
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 5px;
+        padding-left: 5px;
     }
 }
 
