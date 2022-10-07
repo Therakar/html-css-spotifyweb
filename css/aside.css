@@ -4,7 +4,8 @@ aside{
     background-color: var(--third-color);
     color: var(--secondary-text-color);
     position: relative;
-    overflow-y: hidden;
+    height: 100%;
+    flex-direction: column;
 }
 
 aside img{
@@ -32,8 +33,14 @@ li{
 }
 
 .playlist-nav{
+    height: 100%;
+    overflow-y: hidden;
+    flex-direction: column;
+}
+
+.playlists{
     overflow-y: auto;
-    
+    height: 100%;
 }
 
 span i{
@@ -44,11 +51,9 @@ span i{
 }
 
 .bottom-nav{
-    align-items: flex-end;
+    margin-top: auto;
     width: 100%;
     background-color: var(--third-color);
-    position: absolute;
-    bottom: 0;
 }
 
 .profile-icon{

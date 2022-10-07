@@ -11,6 +11,8 @@ main{
     margin: auto;
     justify-content: space-between;
     padding-top: 1.25rem;
+    padding-left: 20px;
+    padding-right: 20px;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
@@ -18,8 +20,8 @@ main{
 
 .category-list ul{
     flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
-    padding: 0 1.25rem;
 }
 
 .category-list li:not(:last-child){
@@ -32,6 +34,16 @@ main{
     margin-top: 3.125rem;
 }
 
+.box-img{
+    position: relative;
+}
+
+.play-icon{
+    position: absolute;
+}
+.container-img{
+    display: block;
+}
 /* created for you | popular artists */
 .created-for-you > h4, .popular-artists > h4{
     padding: 10px 0;

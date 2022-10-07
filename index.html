@@ -48,10 +48,15 @@
             </nav>
 
             <!-- playlist nav -->
-            <nav class="playlist-nav padding-standard off-under-600px"> 
-                <ul class="list-inline">
-                    <li><h3>PLAYLIST</h3></li>
-                    <li><a href="#"><span><i class="fa-sharp fa-solid fa-square-plus"></i></span><h4>Crea Playlist</h4></a></li>
+            <nav class="playlist-nav padding-standard off-under-600px flex">
+                <div><h3>PLAYLIST</h3></div>
+                <div class="">
+                    <a href="#">
+                        <span><i class="fa-sharp fa-solid fa-square-plus"></i></span>
+                        <h4>Crea Playlist</h4>
+                    </a>
+                </div>
+                <ul class="list-inline .playlists">
                     <li><a href="#"><h4>Nome Playlist</h4></a></li>
                     <li><a href="#"><h4>Nome Playlist</h4></a></li>
                     <li><a href="#"><h4>Nome Playlist</h4></a></li>
@@ -72,7 +77,9 @@
 
         <!-- main -->
         <main>
-            <div class="category-list flex">
+
+            <!-- category list -->
+            <div class="category-list">
                 <ul class="list-inline flex">
                     <li><a href="#"><h4>IN EVIDENZA</h4></a></li>
                     <li><a href="#"><h4>PODCAST</h4></a></li>
@@ -82,11 +89,15 @@
                     <li><a href="#"><h4>SCOPRI</h4></a></li>
                 </ul>
             </div>
+
+            <!-- recently played section -->
             <div class="recently-played padding-standard">
                 <h2>Recently played</h2>
                 <div class="container">
                     <div class="row flex">
-                        <div class="card flex">
+
+                        <!-- card 1 -->
+                        <div class="card">
                             <div class="img-box">
                                 <a href="#">
                                     <img src="img/metal_lifting.jpg" alt="heavy-metal-mix">
@@ -97,13 +108,26 @@
                                 <h4>Subtitle</h4>
                             </div>
                         </div>
+
+                        <!-- card 2 -->
                         <div class="card">
-                            <a href="#">
-                                <img src="img/stranger.jpeg" alt="stranger-things">
-                            </a>
-                            <h3>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
-                            <h4>Kyle Dixon & Michael Stein</h4>
+                            <div class="img-box">
+                                <div class="play-icon">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                                
+                                <div class="">
+                                    <img src="img/stranger.jpeg" alt="stranger-things">
+                                </div>
+                            </div>
+                            <div class="text-box">
+                                <h3>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
+                                <h4>Kyle Dixon & Michael Stein</h4>
+                            </div>
+                           
                         </div>
+
+                        <!-- card 3 -->
                         <div class="card">
                             <div class="img-box">
                                 <a href="#">
@@ -115,58 +139,107 @@
                                 <h4>Subtitle</h4>
                             </div>
                         </div>
+
+                        <!-- card 4 -->
                         <div class="card">
-                            <a href="#">
-                                <img src="img/split.jpeg" alt="split">
-                            </a>
-                            <h3>Split</h3>
-                            <h4>Subtitle</h4>
+                            <div class="img-box">
+                                <a href="#">
+                                    <img src="img/split.jpeg" alt="split">
+                                </a>
+                            </div>
+                            
+                            <div class="text-box">
+                                <h3>Split</h3>
+                                <h4>Subtitle</h4>
+                            </div>
                         </div>
+
+                        <!-- card 5 -->
                         <div class="card">
-                            <a href="#">
-                                <img src="img/cure.jpeg" alt="a-cure-for-wellness">
-                            </a>
-                            <h3>A cure for wellness</h3>
-                            <h4>Subtitle</h4>
+                            <div class="img-box">
+                                <a href="#">
+                                    <img src="img/cure.jpeg" alt="a-cure-for-wellness">
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <h3>A cure for wellness</h3>
+                                <h4>Subtitle</h4>
+                            </div>
                         </div>
+
+                        <!-- card 6 -->
                         <div class="card">
-                            <a href="#">
-                                <img src="img/sinister.jpeg" alt="sinister">
-                            </a>
-                            <h3>Sinister</h3>
-                            <h4>Subtitle</h4>
+                            <div class="img-box">
+                                <a href="#">
+                                    <img src="img/sinister.jpeg" alt="sinister">
+                                </a>
+                            </div>
+                            <div class="text-box">
+                                <h3>Sinister</h3>
+                                <h4>Subtitle</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- created for you section -->
             <div class="created-for-you padding-standard">
                 <h2>Creato per Jhon Doe</h2>
                 <h4>Più ascolti, più accurati saranno i suggerimenti.</h4>
                 <div class="container">
                     <div class="row flex">
+                        
+                        <!-- card 1 -->
                         <div class="card">
-                            <a href="#"><img src="img/radar.jpeg" alt="your-relise-radar"></a>
-                            <h3>Release Radar</h3>
+                            <div class="img-box">
+                                <a href="#"><img src="img/radar.jpeg" alt="your-relise-radar"></a>
+                            </div>
+                            <div class="text-box">
+                                <h3>Release Radar</h3>
+                            </div>
                         </div>
+
+                        <!-- card 2 -->
                         <div class="card">
-                            <a href="#"><img src="img/mixdaily.jpeg" alt="daily-mix"></a>
-                            <h3>Daily Mix 1</h3>
+                            <div class="img-box">
+                                <a href="#"><img src="img/mixdaily.jpeg" alt="daily-mix"></a>
+                            </div>
+                            <div class="text-box">
+                                <h3>Daily Mix 1</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div> 
+
+            <!-- popular artists section -->
             <div class="popular-artists padding-standard">
                 <h2>Artisti più popolari</h2>
                 <h4>Più ascolti, più accurati saranno i suggerimenti.</h4>
                 <div class="container">
                     <div class="row flex">
+
+                        <!-- card 1 -->
                         <div class="card">
-                            <a href="#"><img class="circle" src="img/youg.jpeg" alt="lana-del-rey"></a>
-                            <h3>Lana Del Rey</h3>
+                            <div class="img-box">
+                                <a href="#"><img class="circle" src="img/youg.jpeg" alt="lana-del-rey"></a>
+                            </div>
+                            <div class="text-box">
+                                <h3>Lana Del Rey</h3>
+                            </div>
+                            
+                            
                         </div>
+
+                        <!-- card 2 -->
                         <div class="card">
-                            <a href="#"><img class="circle" src="img/einaudi.jpeg" alt="einaudi"></a>
-                            <h3>Einaudi</h3>
+                            <div class="img-box">
+                                <a href="#"><img class="circle" src="img/einaudi.jpeg" alt="einaudi"></a>
+                            </div>
+                            <div class="text-box">
+                                <h3>Einaudi</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
