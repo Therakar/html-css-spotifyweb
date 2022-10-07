@@ -40,7 +40,7 @@ li{
 
 .playlists{
     overflow-y: auto;
-    height: 100%;
+    flex-grow: 1;
 }
 
 span i{
@@ -65,8 +65,4 @@ span i{
 
 .on-under-600px{
     display: none;
-}
-
-.recently-played a:hover{
-    opacity: 0.5;
 }

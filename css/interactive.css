@@ -19,6 +19,32 @@ nav i:hover{
     color: white;
 }
 
+.card:hover{
+    filter: grayscale(0.7);
+    transition: 0.5s;
+}
+
+.recently-played i{
+    display: none;
+}
+
+.created-for-you i{
+    display: none;
+}
+
+.popular-artists i{
+    display: none;
+}
+
+.card:hover i{
+    display: block;
+    transition: 0.5s;
+}
+
+main h3:hover{
+    cursor: pointer;
+}
+
 /* BUTTONS */
 .btn{
     padding: .625rem 1.875rem;
@@ -33,3 +59,6 @@ nav i:hover{
     cursor: pointer;
     transform: scale(1.1);
 }
+
+
+
